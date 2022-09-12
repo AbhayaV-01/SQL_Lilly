@@ -58,3 +58,5 @@ select f.f_id, f.price * count(b.F_id) as revenue
 from flight f, booking b
 where f.f_id = b.F_id
 GROUP BY b.F_id;
+
+adadfa
